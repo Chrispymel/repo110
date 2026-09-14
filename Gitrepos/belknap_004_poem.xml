@@ -1,0 +1,29 @@
+<root>
+    <book type="poem"><poem title="Ballad of Booker T.,"/></book> by<author>Langston
+        Hughes</author>, <unit time="date">June 1, 1941 </unit> BALLAD OF BOOKER T. by
+        <character>Langston Hughes</character>  Was a <stru type="adjective"
+        >practical</stru> man. He said, Till the <natu type="land">soil</natu> And learn from the
+    land. Let down your bucket Where you are. <fig speech="personification">Your fate is here</fig>
+    <!-- This personifies as if fate is treated as an act than a emotional appeal --> And not afar.
+    To help yourself And your fellow man, <fig speech="metaphor">Train your head</fig>,
+    <!---This means to gain more knowledge as a figure of speech --> Your heart, and your hand . For
+    smartness alone's Surely not meet— If you haven't at the same time Got something to eat. Thus at
+    Tuskegee He built a school With book-learning there And the workman's tool. He started out In a
+    simple way— For yesterday Was not today. Sometimes he had Compromise in his talk— <fig
+        speech="idiom"> For a man must crawl Before he can walk</fig>— And in <stat
+        history="Alabama">Alabama in '85 A joker was lucky To be alive. </stat>
+    <body> But <fig speech="idiom">Booker T. Was nobody's fool</fig> : <fig speech="metaphor"> You
+            may carve a dream With an humble tool</fig>
+        <!-- You can't actually carve a dream with a humble tool -->. The tallest tower Can tumble
+        down If it be not rooted In solid ground. So, being a far-seeing Page 1 of 2 Education and
+        Outreach Division Transcript Practical man, He said, <fig speech="metaphor">Train your
+            head</fig>, Your heart, and your hand . </body>
+        <metadata>
+        <decision choice="fate">Your fate</decision> is here And not afar, So let down your bucket
+        Where you are. L ANGSTON HUGHES Final Draft, Hollow Hills Farm, <location>Monterey, California</location>,
+        <date>June 1, 1941</date>.
+</metadata>
+    <resource> Citation: Drafts of Langston Hughes's poem "Ballad of Booker T.," <pub
+            time="30 May–1 June 1941"/> (Langston Hughes Collection) Manuscript Division,
+            <leg>Library of Congress</leg>, Washington, D.C. </resource>
+</root>
