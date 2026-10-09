@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Behrend Family Calendar Pages, 1909 </title>
+                <author> Molly Behrend </author>
+            </titleStmt>
+            <publicationStmt>
+                <p> Created for a TEI encoding exercise. </p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Calendar pages from the Behrend family collection.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="calendar">
+                <head>January 30, 1909</head>
+                <pb n="1"/>
+                <div type="calendar-page">
+                    <dateline>
+                        <date when="1909-01-30">January 30, 1909</date>
+                        <hi>Saturday</hi>
+                    </dateline>
+                    <figure>
+                        <figDesc>Printed illustration of a person seated at a table with objects
+                            including a clock.</figDesc>
+                    </figure>
+                    <note type="handwritten">
+                        <p> Handwritten text appears below te illustration. Transcribing the words
+                            that clearly legible from the original calendar page. </p>
+                    </note>
+                </div>
+            </div>
+            <div type="calendar">
+                <head>March 11, 1909</head>
+                <pb n="2"/>
+                <div type="calendar-page"> <!-- The approach I was trying to make here was showing each calendar sheet representing a few of the pages and tried to read most but got what I could read -->
+                    <dateline>
+                        <date when="1909-03-11">March 11, 1909</date> <!-- Dates are a choice for the date that these pages are oublished is super important to inform when these pages are written -->
+                        <hi>Thursday</hi>
+                    </dateline>
+                    <figure>
+                        <figDesc>
+                            Drawing of four people wearing different styles of clothing. 
+                        </figDesc>
+                    </figure>
+                    <note type="handwritten">
+                        <p>
+                            <unclear reason="handwriting">
+                                Handwritten verse
+                            </unclear>. <!-- Majority of the handwritten verse was mainly unclear from my understanding -->
+                            beneath the drawing.
+                        </p>
+                    </note>
+                </div>
+            </div>
+            <div type="calendar">
+                <head>March 17, 1909</head>
+                <pb n="3"/>
+                <div type="calendar-page">
+                    <dateline>
+                        <date when="1909-03-17">March 17, 1909</date>
+                        <hi>Wednesday</hi>
+                        <note>St. Patrick's Day</note> <!-- A very important day from what I see from the picture is a traditional saint patrick's day iconic picture which most of the reading I could understand -->
+                    </dateline>
+                    <figure>
+                        <figDesc> <!-- Each page has a date and all that other important stuff as previosuly listed earlier -->
+                            Green shamrocks and decorative drawings,
+                            with a drawing of an industrial building
+                            near the bottom of the page.
+                        </figDesc>
+                    </figure>
+                    <note type="handwritten">
+                        <p>
+                            St. Patrick was a useful saint.
+                            He frightened all the snakes away.
+                            I wish he'd try his art on some
+                            around the Haverhill Shoe Day.
+                        </p>
+                    </note>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
