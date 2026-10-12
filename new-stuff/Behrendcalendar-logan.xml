@@ -10,7 +10,21 @@
                 <p> Created for a TEI encoding exercise. </p>
             </publicationStmt>
             <sourceDesc>
-                <p>Calendar pages from the Behrend family collection.</p>
+	    <msdesc>
+		<msIdentifier>
+                <collection>Behrend Family collection</collection>
+		</msIdentifier>
+	    <msContents>
+		<summary>
+		  A collection of calendar pages from 1909, including dated entries, printed illustrations, and handwritten notes.
+		</summary>
+		</msContents>
+	<physDesc>
+	   <objectDesc>
+		<p> The calendar pages contain printed illustrationsand handwritten text. Some handwritten content is difficult to read.</p>
+		</objectDesc>
+	</physDesc>
+	</msDesc>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
