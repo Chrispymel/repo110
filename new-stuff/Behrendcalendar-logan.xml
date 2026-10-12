@@ -32,6 +32,9 @@
                         <p> Handwritten text appears below te illustration. Transcribing the words
                             that clearly legible from the original calendar page. </p>
                     </note>
+		    <note type="description">
+			The illustration contains a person seated at a table with several objects.
+		    </note>
                 </div>
             </div>
             <div type="calendar">
@@ -64,7 +67,10 @@
                     <dateline>
                         <date when="1909-03-17">March 17, 1909</date>
                         <hi>Wednesday</hi>
-                        <note>St. Patrick's Day</note> <!-- A very important day from what I see from the picture is a traditional saint patrick's day iconic picture which most of the reading I could understand -->
+                        <note>
+			<rs type="holiday">St Patrick's Day</rs>
+</note> <!-- A very important day from what I see from the picture is a traditional saint patrick's day iconic picture which most of the reading I could understand -->
+			
                     </dateline>
                     <figure>
                         <figDesc> <!-- Each page has a date and all that other important stuff as previosuly listed earlier -->
@@ -74,12 +80,12 @@
                         </figDesc>
                     </figure>
                     <note type="handwritten">
-                        <p>
-                            St. Patrick was a useful saint.
-                            He frightened all the snakes away.
-                            I wish he'd try his art on some
-                            around the Haverhill Shoe Day.
-                        </p>
+             		<lg type="verse">
+			<l>St Patrick was a useful saint.</l>
+			<l>He frightened all the snakes away.</l>
+			<l>I wish he'd try his art on some</l>
+			<l>around the Haverhill Shoe Day.</l>
+			</lg>
                     </note>
                 </div>
             </div>
