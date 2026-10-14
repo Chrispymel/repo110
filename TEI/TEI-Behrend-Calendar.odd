@@ -2,7 +2,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Project TEI Customization Starter</title>
+        <title>Behrend Family Calendar TEI Customization</title>
         <author>Elisa Beshero-Bondar</author>
       </titleStmt>
       <publicationStmt>
@@ -25,7 +25,7 @@
   </teiHeader>
   <text>
     <body>
-      <head>TEI Complete</head>
+      <head>Behrend Family Calendar TEI Customization</head>
       <p>This TEI customization describes a schema that includes
       <emph>all</emph> of the TEI P5 modules. This is a very useful
       starting place for manually creating your own customizations —
@@ -57,6 +57,12 @@
       more <emph>elements</emph> which are required for TEI
       conformance.</p>
       <schemaSpec ident="tei_all" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+	<elementSpec ident="date" mode="change">
+	<desc>Records the date associated with a Behrend family calendar entry.</desc>
+	</elementSpec>
+	<elementSpec ident="head" mode="change">
+	<desc>Records the heading or title of a family calendar entry.</desc>
+	</elementSpec>
         <moduleRef n="01" key="tei"/>
         <moduleRef n="02" key="header"/>
         <moduleRef n="03" key="core"/>
@@ -79,6 +85,7 @@
         <moduleRef n="20" key="nets"/>
         <moduleRef n="22" key="certainty"/>
         <moduleRef n="23" key="tagdocs"/>
+	
       </schemaSpec>
     </body>
   </text>
