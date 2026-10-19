@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+<?xml-model href="../TEI/out/TEI-Behrend-Calendar(new).rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../../Downloads/TEI-Behrend-Calendar.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -7,26 +10,22 @@
                 <author> Molly Behrend </author>
             </titleStmt>
             <publicationStmt>
-                <p> Created for a TEI encoding exercise. </p>
+                <publisher> Created for a TEI encoding exercise. </publisher>
+                <availability status="free">
+                    <p>Creating for the behrend calendar</p>
+                </availability>
             </publicationStmt>
             <sourceDesc>
-	    <msdesc>
-		<msIdentifier>
-                <collection>Behrend Family collection</collection>
-		</msIdentifier>
-	    <msContents>
-		<summary>
-		  A collection of calendar pages from 1909, including dated entries, printed illustrations, and handwritten notes.
-		</summary>
-		</msContents>
-	<physDesc>
-	   <objectDesc>
-		<p> The calendar pages contain printed illustrationsand handwritten text. Some handwritten content is difficult to read.</p>
-		</objectDesc>
-	</physDesc>
-	</msDesc>
+            <p>Behrend Family Collection. A collection of calendar pages from 1909, containing printed illustrations and handwritten text.</p>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <appInfo>
+            <application ident="oxygen" version="1.0" when="2026-10-19T17:34:00">
+             <desc>Used to encode the Behrend Family Calendar.</desc>
+            </application>
+            </appInfo>
+        </encodingDesc>
     </teiHeader>
     <text>
         <body>
@@ -79,12 +78,7 @@
                 <pb n="3"/>
                 <div type="calendar-page">
                     <dateline>
-                        <date when="1909-03-17">March 17, 1909</date>
-                        <hi>Wednesday</hi>
-                        <note>
-			<rs type="holiday">St Patrick's Day</rs>
-</note> <!-- A very important day from what I see from the picture is a traditional saint patrick's day iconic picture which most of the reading I could understand -->
-			
+                        <hi>Wednesday</hi> 
                     </dateline>
                     <figure>
                         <figDesc> <!-- Each page has a date and all that other important stuff as previosuly listed earlier -->
