@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <?xml-model href="../TEI/out/TEI-Behrend-Calendar(new).rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../../../Downloads/TEI-Behrend-Calendar.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../TEI/TEI-Behrend-Calendar.sch" type="application/xml" Schematypens="http://purl.oclc.org/dsdl/schematrons"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
     <teiHeader>
         <fileDesc>
